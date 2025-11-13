@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #212121;
+}
+header.sticky {
+    position: sticky;
+    top: 0;
+    background: #1a237e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    z-index: 1000;
+}
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.phone {
+    font-size: 1rem;
+}
+.order-btn {
+    background: #ff6f00;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.hero {
+    background: #f5f5f5;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.hero ul {
+    list-style: none;
+    padding: 0;
+}
+.cta, .whatsapp {
+    display: inline-block;
+    margin: 18px 10px 0 0;
+    padding: 18px 28px;
+    font-size: 1.14rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cta {
+    background: #ff6f00;
+    color: #fff;
+}
+.whatsapp {
+    background: #4caf50;
+    color: #fff;
+}
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin: 32px 0;
+}
+.service-list a {
+    background: #e3e4e5;
+    color: #1a237e;
+    text-decoration: none;
+    padding: 16px 28px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.12rem;
+    transition: background .2s;
+}
+.service-list a:hover {
+    background: #ff6f00;
+    color: #fff;
+}
+#b2c-b2b .dirs {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    margin-top: 16px;
+}
+.b2c, .b2b {
+    background: #fff;
+    border: 2px solid #ff6f00;
+    border-radius: 8px;
+    padding: 20px 36px;
+    font-weight: bold;
+    font-size: 1.09rem;
+    color: #1a237e;
+}
+.brand-logos {
+    margin: 22px 0;
+    font-size: 1.2rem;
+}
+#prices ul { list-style: none; padding: 0; margin: 0 0 18px 0; }
+#prices ul li { padding: 2px 0; }
+#workflow ol { padding: 0 18px; }
+footer {
+    background: #1a237e;
+    color: #fff;
+    padding: 32px 12px 8px;
+    text-align: center;
+}
+.footer-menu a {
+    color: #fff;
+    margin: 0 9px;
+    text-decoration: underline;
+}
+.contacts, .socials { margin: 7px 0; }
+@media (max-width: 800px) {
+    header.sticky { flex-direction: column; align-items: flex-start; padding: 18px; }
+    nav { margin: 6px 0 7px; }
+    .service-list { flex-direction: column; align-items: center; }
+    #b2c-b2b .dirs { flex-direction: column; align-items: center; }
+}
