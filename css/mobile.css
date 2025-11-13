@@ -1,0 +1,41 @@
+@media (max-width: 500px) {
+    .logo {
+        font-size: 1.12rem;
+    }
+    header.sticky, footer {
+        padding: 12px 6px 8px;
+    }
+    nav a {
+        font-size: 0.99rem;
+        margin: 0 9px;
+    }
+    .hero {
+        padding: 39px 4px 24px;
+    }
+    .cta, .whatsapp {
+        font-size: 1rem;
+        padding: 11px 12px;
+    }
+    .service-list a {
+        padding: 11px 7px;
+        font-size: 1.01rem;
+        margin-bottom: 5px;
+    }
+    .b2c, .b2b {
+        padding: 11px 7px;
+        font-size: 0.99rem;
+    }
+    #brands, #prices, #reviews, #workflow {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .brand-logos {
+        font-size: 1.01rem;
+    }
+    footer .footer-menu a {
+        font-size: 0.91rem;
+    }
+    .contacts, .socials {
+        font-size: 0.95rem;
+    }
+}
